@@ -1,0 +1,27 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# IDE-specific files (e.g., VS Code, IntelliJ)
+.vscode/
+.idea/
+
+# Dependencies / Packages (if applicable)
+node_modules/
+venv/  # For Python virtual environments
+target/ # For Java Maven projects
+build/  # For Java Gradle or other build outputs
+dist/   # Common for compiled web assets
+
+# Environment variables / Sensitive files
+.env
+*.env
+config.local.js
+credentials.json
